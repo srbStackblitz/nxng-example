@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "projects": {
+    "config": "libs/config",
+    "qqq": "apps/qqq"
+  },
+  "qqq": {
+    "root": "apps/qqq",
+    "sourceRoot": "apps/qqq/src",
+    "projectType": "application",
+    "prefix": "nxng",
+    "schematics": {},
+    "architect": {
+      "build": {
+        "builder": "@angular-devkit/build-angular:browser",
+        "options": {
+          "aot": true,
+          "outputPath": "dist/apps/fromAngJsn"
+        }
+      }}}
+}
